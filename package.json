@@ -1,0 +1,25 @@
+{
+  "name": "tg-installer",
+  "version": "1.0.0",
+  "description": "Installation utility for tg-cli",
+  "type": "module",
+  "main": "./bin/index.js",
+  "bin": {
+    "tg-i": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "david@testgram.ai",
+  "license": "ISC",
+  "dependencies": {
+    "7zip-bin": "^5.1.1",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "esm": "^3.2.25",
+    "listr2": "^3.13.3",
+    "node": "^16.13.0",
+    "node-7z": "^3.0.0",
+    "path": "^0.12.7"
+  }
+}
